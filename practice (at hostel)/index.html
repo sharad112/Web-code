@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="jquery.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header id="main-header">
+        <nav>
+            <div class="logo">
+                <img src="images/loder.png">
+                <h1>CAKE</h1>
+            </div>
+            <input type="checkbox" id="click">
+            <ul class="menu">
+                <li><a class="element" href="#">Home</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+            <label for="click" class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <div class="contact">
+                <button class="button-1">Order Online</button>
+            </div>
+        </nav>
+        <div class="home-content-wrapper">
+            <div class="home-content">
+                <h3>INTRODUCTION</h3>
+                <h1>DELICIOUS CAKE FOR EVERYONE</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis tellus condimentum, pretium dui ut, consectetur sapien. Nam vehicula leo eget ante suscipit porta. Donec in turpis commodo ante consequat bibendum</p>
+                <button class="button-2">Explore Menu</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="product-div-wrapper" id="product">
+        <div class="product-div-top">
+            <p>Most Popular</p>
+            <h1>Our Exclusive Cakes</h1>
+        </div>
+
+        <div class="product-div-bottom">
+            <div class="product">
+                <img src="images/items1.png">
+                <h3>Chocolate</h3>
+                <p>land behold it created good saw<br> after she'd our set </p>
+                <button class="button-3n" id="button-3-0">$20|order now</button>
+            </div>
+
+            <div class="product">
+                <img src="images/items2.png">
+                <h3>Sweetheart</h3>
+                <p>land behold it created good saw<br> after she'd our set </p>
+                <button class="button-3n" id="button-3-1">$20|order now</button>
+            </div>
+
+            <div class="product">
+                <img src="images/items3.png">
+                <h3>Blackforest</h3>
+                <p>land behold it created good saw<br> after she'd our set </p>
+                <button class="button-3n" id="button-3-2">$20|order now</button>
+            </div>
+        </div>
+    </div>
+    <div class="about-div-wrapper" id="about">
+       <div class="about-us">
+        <div class="about-left">
+            <img src="images/about-img.png">
+        </div>
+
+        <div class="about-right">
+            <p>Fresh & Delicious </p>
+            <h1>a simple way of eating delicious</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab assumenda voluptatem minus nobis, nihil sequi nis Ab assumenda voluptatem minus nobis, nihil sequi nis</p>
+            <button class="button-4">Our story</button>
+        </div>
+       </div>
+    </div>
+
+
+    <div class="features-wrapper" id="feature">
+        <div class="features">
+            <div class="features-top">
+                <p>Our Features</p>
+                <h1>Quality Is Our First Priority</h1>
+            </div>
+
+            <div class="features-bottom">
+                <div class="minidiv">
+                    <img src="icons/icon1.svg">
+                    <h2>Features 1</h2>
+                    <p>consectetur adipiscing elit, serfd dgo eiusmod tempor incididunt ut ore et dolore magna aliqua.</p>
+                </div>
+
+                <div class="minidiv">
+                    <img src="icons/icon2.svg">
+                    <h2>Features 2</h2>
+                    <p>consectetur adipiscing elit, serfd dgo eiusmod tempor incididunt ut ore et dolore magna aliqua.</p>
+                </div>
+
+                <div class="minidiv">
+                    <img src="icons/icon3.svg">
+                    <h2>Features 3</h2>
+                    <p>consectetur adipiscing elit, serfd dgo eiusmod tempor incididunt ut ore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="video-bg">
+        <div class="button" id="button-1n"></div> 
+        <!-- this is the play button  -->
+        <div class="button-2n" id="button-2n">
+        </div>
+        <div class="circle"></div>
+        <img src="images/video-bg.png" style="max-width: 100vw;">
+    </div>
+
+
+    <div class="contact-us">
+        <div class="contact-us-left">
+            <p>BE FRIENDS</p>
+            <h1>WANNA BE IN TOUCH </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, reprehenderit illum nesciunt mollitia molestiae iste veritatis? In saepe et asperiores nobis sunt maxime expedita! Alias tempore hic maxime necessitatibus repellat?</p>
+        </div>
+
+        <div class="contact-us-right">
+            <input type="text" placeholder="&nbsp Name" id="name">
+            <input type="number" placeholder="&nbsp Phone" id="phone">
+            <input type="email" placeholder="&nbsp Email" id="Email">
+            <button class="form-btn">SUBMIT</button>
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
